@@ -1,0 +1,32 @@
+{
+  "name": "bot-whatsapp",
+  "version": "1.0.0",
+  "description": "Bot whatsapp para la ejecución de procesos automatizados.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "npx tsm ./src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bobrobert13/whatsapp-automation-bot.git"
+  },
+  "keywords": [
+    "WhatsApp",
+    "Automation",
+    "Bot",
+    "Tasks",
+    "Automated",
+    "GitHub"
+  ],
+  "author": "Robert Caraballo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bobrobert13/whatsapp-automation-bot/issues"
+  },
+  "homepage": "https://github.com/bobrobert13/whatsapp-automation-bot#readme",
+  "dependencies": {
+    "@bot-whatsapp/bot": "0.1.3-alpha.9",
+    "@bot-whatsapp/provider-baileys": "0.1.3-alpha.9"
+  }
+}
